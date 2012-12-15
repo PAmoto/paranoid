@@ -65,6 +65,9 @@ clear
 
 # decide what device to build for
 case "$DEVICE" in
+   shadow)
+       device="shadow"
+       echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for Verizon Droid X ${txtrst}";;
    galaxys2)
        device="galaxys2"
        echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for International Samsung Galaxy S2 ${txtrst}";;
