@@ -69,6 +69,9 @@ case "$DEVICE" in
        device="shadow"
        echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for Verizon Droid X ${txtrst}";;
    galaxys2)
+       device="droid2"
+       echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for Version Droid 2 ${txtrst}";;
+   galaxys2)
        device="galaxys2"
        echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for International Samsung Galaxy S2 ${txtrst}";;
    maguro)
