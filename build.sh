@@ -71,6 +71,9 @@ case "$DEVICE" in
    droid2)
        device="droid2"
        echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for Verzion Droid 2 ${txtrst}";;
+   droid2we)
+       device="droid2we"
+       echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for Droid 2 Global ${txtrst}";;
    galaxys2)
        device="galaxys2"
        echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for International Samsung Galaxy S2 ${txtrst}";;
